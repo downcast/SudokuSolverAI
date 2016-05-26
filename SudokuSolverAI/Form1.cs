@@ -30,7 +30,7 @@ namespace SudokuSolverAI
         {
             String line;
             int count = 0;
-            StreamReader file = new StreamReader("SudokuBoard233E.txt");
+            StreamReader file = new StreamReader("SudokuBoard109H.txt");
 
             while ((line = file.ReadLine()) != null)
             {
